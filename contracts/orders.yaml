@@ -12,9 +12,9 @@ schema:
   - name: user_id
     doc: The ID of the user that placed the order
     type: int32
-  - name: total_amount
+  - name: total_value
     doc: The total price of the order
     type: decimal256
-  - name: order_status
+  - name: status
     doc: The current of the order
     type: string
