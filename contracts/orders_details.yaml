@@ -9,15 +9,9 @@ schema:
   - name: order_id
     doc: The identifier of the order the item is associated with
     type: int32
-  - name: product_id
-    doc: The identifier of the product that was ordered
-    type: int32
   - name: quantity
     doc: The quantity of the product in the order
     type: int32
   - name: total_price
     doc: The total price of the item in the order
     type: decimal256
-  - name: vendor_id
-    doc: The identifier of the vendor that the product was ordered from
-    type: int32
